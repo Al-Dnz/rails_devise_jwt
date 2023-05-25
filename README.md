@@ -22,3 +22,40 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## ENDPOINTS
+
+### REGISTRATIONS
+
+http://localhost/signup
+```
+{
+	"user": {
+		"email": <your email>,
+		"password":  <your password>,
+		"password_confirmation": <your password>
+	}
+}
+```
+
+
+### SESSIONS
+
+http://localhost/signin
+```
+{
+	"user": {
+		"email": <your email>,
+		"password":  <your password>,
+	}
+}
+```
+
+the get the JWT in response bearer 
+
+
+http://localhost/logout
+```
+Authorization: bearer <your user session JWT>
+```
+
