@@ -92,6 +92,8 @@ GEM
       activesupport (>= 5.0)
     i18n (1.13.0)
       concurrent-ruby (~> 1.0)
+    jsonapi-serializer (2.2.0)
+      activesupport (>= 4.2)
     jwt (2.7.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -165,10 +167,7 @@ GEM
     responders (3.1.0)
       actionpack (>= 5.2)
       railties (>= 5.2)
-    spring (2.1.1)
-    spring-watcher-listen (2.0.1)
-      listen (>= 2.7, < 4.0)
-      spring (>= 1.2, < 3.0)
+    table_print (1.5.7)
     thor (1.2.2)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -193,13 +192,13 @@ DEPENDENCIES
   byebug
   devise
   devise-jwt
+  jsonapi-serializer
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rack-cors
   rails (= 7.0.0)
-  spring
-  spring-watcher-listen (~> 2.0.0)
+  table_print
   tzinfo-data
 
 RUBY VERSION
