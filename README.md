@@ -51,7 +51,7 @@ http://localhost/signin
 }
 ```
 
-the get the JWT in response bearer 
+then get the JWT in response bearer 
 
 
 http://localhost/logout
